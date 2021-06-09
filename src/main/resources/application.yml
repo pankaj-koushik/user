@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: home
+
+server:
+  port: 9091
+
+---
+spring:
+  profile: home
+  data:
+    mongodb:
+      uri: mongodb://debezium:dbz@9.220.136.195:27017/test_hk?authSource=admin
+
+
+
