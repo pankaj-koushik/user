@@ -10,7 +10,7 @@ spring:
   profile: home
   data:
     mongodb:
-      uri: mongodb://debezium:dbz@9.220.136.195:27017/test_hk?authSource=admin
+      uri: mongodb://debezium:dbz@mongo:27017/test_hk?authSource=admin
 
 
 
